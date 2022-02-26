@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const LayoutSideComponents = () => {
+const UserLayoutSideComponents = () => {
     return (
         <>
             <div className="nav-sidebar">
@@ -11,59 +11,59 @@ const LayoutSideComponents = () => {
                 </div>
                 <ul className="nav-links">
                     <li>
-                        <NavLink className="active" to="/AdminDash"> 
+                        <NavLink to="/" className="active">
                             <i className='fa fa-home'></i>
                             <span className="links_name">Home</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/EmpList">
+                        <NavLink to="/UserStatements">
                             <i className='bx bx-box fa fa-users'></i>
-                            <span className="links_name">Team</span>
+                            <span className="links_name">My Statements</span>
                         </NavLink>
                     </li>
                     <li>
-                        <NavLink to="/AddEmp">
+                        <NavLink to="/UserRaise">
                             <i className='bx bx-list-ul fa fa-user-plus'></i>
-                            <span className="links_name">Add Employee</span>
+                            <span className="links_name">Raise Issue</span>
                         </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink to="/UserTrackissue">
                             <i className='bx bx-list-ul fa fa-user'></i>
-                            <span className="links_name">Manage Employee</span>
-                        </a>
+                            <span className="links_name">Track Issue</span>
+                        </NavLink>
                     </li>
-                    <li>
-                        <a href="#">
+                   {/* <li>
+                        <NavLink>
                             <i className='bx bx-box fa fa-users'></i>
                             <span className="links_name">All Customers</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink>
                             <i className='bx bx-list-ul fa fa-user-plus'></i>
                             <span className="links_name">Manage Customers</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink>
                             <i className='bx bx-pie-chart-alt-2 fa fa-clipboard'></i>
                             <span className="links_name">Complaints</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink>
                             <i className='bx bx-coin-stack fa fa-database'></i>
                             <span className="links_name">Analytics</span>
-                        </a>
+                        </NavLink>
                     </li>
                     <li>
-                        <a href="#">
+                        <NavLink>
                             <i className='bx bx-cog fa fa-cog'></i>
                             <span className="links_name">Setting</span>
-                        </a>
-                    </li>
+                        </NavLink>
+                    </li>*/}
                     <li className="log_out">
                         <NavLink to="/login">
                             <i className='bx bx-log-out fa fa-lock'></i>
@@ -76,4 +76,4 @@ const LayoutSideComponents = () => {
     );
 };
 
-export default LayoutSideComponents;
+export default UserLayoutSideComponents;

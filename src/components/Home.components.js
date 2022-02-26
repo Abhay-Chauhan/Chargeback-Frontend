@@ -20,12 +20,12 @@ const HomeComponents = () => {
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/allchargebackdetails">
+                <NavLink className="nav-link" to="/AdminDash">
                   AllChargebackDetails
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink className="nav-link" to="/customerDetails">
+                <NavLink className="nav-link" to="/EmpDash">
                   Customer Details
                 </NavLink>
               </li>
@@ -33,6 +33,9 @@ const HomeComponents = () => {
                 <NavLink className="nav-link" to="/blog">
                   Blog
                 </NavLink>
+              </li>
+              <li className="nav-item">
+                <NavLink className="nav_link" to="/login">HELLO</NavLink>
               </li>
             </ul>
           </div>

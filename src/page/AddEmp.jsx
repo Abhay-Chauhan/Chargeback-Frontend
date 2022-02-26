@@ -18,9 +18,8 @@ const AdminDash = () => {
           </div>
           <div className="row m-0">
             <div className="col-md-12 col-sm-12 col-lg-12">
-              <div className="center-card">
+              
               <AddEmpComponents />
-              </div>
               
             </div>
           </div>

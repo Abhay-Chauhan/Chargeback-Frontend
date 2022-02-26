@@ -33,6 +33,7 @@ const NavComponents = () =>{
                   Blog
                 </NavLink>
               </li>
+              <li>HELLO</li>
             </ul>
           </div>
         </div>
